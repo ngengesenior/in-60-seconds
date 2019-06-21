@@ -13,9 +13,9 @@
 
 -  Lambdas and Collections
 
+---
 
----?color=linear-gradient(180deg, white 75%, black 25%)
-@title[What is Kotlin]
+## What is Kotlin
 
 - Statically typed programming language that runs on the JVM
 - Can be compiled to Javascript and also runs on the LLVM compiler
@@ -32,8 +32,6 @@
 @[51-66]()
 
 ---?code=codes/EmployeeKt.kt&lang=kotlin&title=Concise!
----
-
 - Concise
 - Safe
 - Solves Nulability problem
@@ -50,14 +48,15 @@
 
 ---
 # The Code
----?color=linear-gradient(180deg, white 75%, black 25%)
-@title[Files and packages]
+---
+## Files and packages
 - Packages like Java
 - Functions must not be in a class in order to work
 ---
 
 # Variables
 ---
+
 ## Val(read-only)
 ---
 
@@ -132,7 +131,19 @@ else {
 
 ```
 
+---
 
+## Calling Functions
+```kotlin
+val min = findMin()
+val min = findMin(first=3,second=7)
+val min = findMin(3,5)
+val min = findMin(second=8)
+```
+---
 
+## Concise Way!
+```kotlin
+fun findMin(first:Int,second:Int) = if(first < second) first else second
 
-
+---
