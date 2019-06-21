@@ -26,6 +26,7 @@
 - Concise, Safe.
 
 ---?code=codes/Employee.java&title=Concise?
+@[1-69](Employee Class)
 
 ---?code=codes/EmployeeKt.kt&lang=kotlin&titl=Concise!
 
