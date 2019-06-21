@@ -32,6 +32,8 @@
 @[51-66]()
 
 ---?code=codes/EmployeeKt.kt&lang=kotlin&title=Concise!
+---
+
 - Concise
 - Safe
 - Solves Nulability problem
@@ -39,6 +41,7 @@
 - Easy to adopt
 ---?color=linear-gradient(180deg, white 75%, black 25%)
 @title[Who is Kotlin For]
+
 - Android developers(JVM)
 - Backend developers(JVM)
 - iOS developers(LLVM)
@@ -64,7 +67,6 @@ email = "somefakeemail@gmail.com" // This is an error. Email is read-only
 ```
 ---
 @title[Var(mutable)]
-
 ```koltin
 var birthYear:Int = 1992
 var event = "Google I/O Extended"
@@ -73,5 +75,59 @@ birthYear = 1980 // This is OK
 event = "I/O Limbe 2019" // This is OK
 birthYear = "2019" // Please don't do that here. It will fail as variable is an Int
 ```
+
++++
+
+# Object Instantiation
+---
+```kotlin
+val stringBuilder = StringBuilder("My String") // No need for new 
+stringBuilder.append("another text") // No need for semi colons
+println(stringBuilder)
+```
+---
+
+# Functions and Extension Functions
+---
+@[1-10](Functions)
+
+```kotlin
+fun findMin(first:Int, second:Int):Int {
+if(first < second) {
+    return first
+}
+else {
+    return second
+}
+    }
+```
+---
+@[1-7](Functions `if is an expression`)
+
+```kotlin
+fun findMin(first:Int, second:Int):Int {
+return if(first < second) {
+   first
+}
+else {
+    second
+}
+    }
+```
+---
+@[1-9](Default Values)
+
+```kotlin
+fun findMin(first:Int=0, second:Int=100):Int {
+return if(first < second) {
+   first
+}
+else {
+    second
+}
+    }
+
+```
+
 
 
