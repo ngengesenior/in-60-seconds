@@ -23,8 +23,7 @@ class Employee{
     {
         return name;
     }
-
-
+    
     public void setName(String name)
     {
         this.name = name;
@@ -40,15 +39,12 @@ class Employee{
     {
         this.id = id;
     }
-
-
-    @Override
+    
     public String toString()
     {
         return "(Name:" + name + ", ID:"+ id + ", Email:"+ email;
     }
 
-    @Override
     public boolean equals(Object o) { 
   
           
