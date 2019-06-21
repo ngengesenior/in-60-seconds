@@ -1,10 +1,18 @@
-# Let's Get Started
+# Introduction to Kotlin
 
 ---
 
-## Add Some Slide Candy
+## Agenda
+- ### What is Kotlin/Why /For Whom
 
-![](assets/img/presentation.png)
+- ### Variables
+
+- ### Functions and Extension Functions
+
+- ### Classes and Properties
+
+- ### Lambdas and Collections
+
 
 ---?color=linear-gradient(180deg, white 75%, black 25%)
 @title[Customize Slide Layout]
