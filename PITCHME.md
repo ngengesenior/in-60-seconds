@@ -3,19 +3,30 @@
 ---
 
 ## Agenda
-- ### What is Kotlin/Why /For Whom
+-  What is Kotlin/Why /For Whom
 
-- ### Variables
+-  Variables
 
-- ### Functions and Extension Functions
+-  Functions and Extension Functions
 
-- ### Classes and Properties
+-  Classes and Properties
 
-- ### Lambdas and Collections
+-  Lambdas and Collections
 
 
 ---?color=linear-gradient(180deg, white 75%, black 25%)
-@title[Customize Slide Layout]
+@title[What is Kotlin]
+
+- Statically typed programming language that runs on the JVM
+- Can be compiled to Jvascript and also runs on the LLVM compiler
+- Developed by Jetbrains
+- Totally interoperable with Java
+- Became first class citizen language for Android development at I/O 2017
+- Becam Google's preferred language for Android at I/O 2019
+- Concise, Safe.
+
+---?code=codes/Employee.java&lang=java
+
 
 @snap[west span-50]
 ## Customize the Layout
