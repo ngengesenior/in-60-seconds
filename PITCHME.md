@@ -58,7 +58,8 @@
 
 # Variables
 ---
-@title[Val(read-only)]
+## Val(read-only)
+---
 
 ```kotlin
 val email:String = "seniorngenge@gmail.com"
@@ -66,7 +67,9 @@ val name = "Ngenge Senior"
 email = "somefakeemail@gmail.com" // This is an error. Email is read-only
 ```
 ---
-@title[Var(mutable)]
+## Var(mutable)
+---
+
 ```koltin
 var birthYear:Int = 1992
 var event = "Google I/O Extended"
@@ -75,8 +78,7 @@ birthYear = 1980 // This is OK
 event = "I/O Limbe 2019" // This is OK
 birthYear = "2019" // Please don't do that here. It will fail as variable is an Int
 ```
-
-+++
+---
 
 # Object Instantiation
 ---
@@ -89,7 +91,6 @@ println(stringBuilder)
 
 # Functions and Extension Functions
 ---
-@[1-10](Functions)
 
 ```kotlin
 fun findMin(first:Int, second:Int):Int {
@@ -102,7 +103,8 @@ else {
     }
 ```
 ---
-@[1-7](Functions `if is an expression`)
+## Functions (if is an expression)
+---
 
 ```kotlin
 fun findMin(first:Int, second:Int):Int {
@@ -115,7 +117,8 @@ else {
     }
 ```
 ---
-@[1-9](Default Values)
+# Default Values
+---
 
 ```kotlin
 fun findMin(first:Int=0, second:Int=100):Int {
@@ -128,6 +131,4 @@ else {
     }
 
 ```
-
-
 
