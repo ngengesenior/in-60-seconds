@@ -1,4 +1,3 @@
-* ASCII text, with CRLF line terminators
 class Employee{
     private String name;
     private int id;
@@ -9,7 +8,6 @@ class Employee{
         this.id = id;
         this.email = email;
     }
-
 
     public String getEmail()
     {
@@ -53,7 +51,7 @@ class Employee{
     @Override
     public boolean equals(Object o) { 
   
-        // If the object is compared with itself then return true   
+          
         if (o == this) { 
             return true; 
         } 
@@ -63,10 +61,10 @@ class Employee{
             return false; 
         } 
           
-        // typecast o to Complex so that we can compare data members  
+        
         Employee c = (Employee) o; 
           
-        // Compare the data members and return accordingly  
+      
         return name.compare(o.name) == 0 && email.compare(o.email) == 0 && id == o.id;
     } 
 
