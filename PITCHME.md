@@ -26,7 +26,7 @@
 - Concise, Safe.
 ---
 ---?code=codes/Employee.java&title=Concise?
-@[1-20]()
+@[0-20]()
 @[21-30]()
 @[31-50]()
 @[51-66]()
@@ -145,5 +145,100 @@ val min = findMin(second=8)
 ## Concise Way!
 ```kotlin
 fun findMin(first:Int,second:Int) = if(first < second) first else second
-
+```
 ---
+
+## Extension functions
+```kotlin
+fun Int.isGreaterThan(Int:other) = if(this > other) true else false
+
+val truth = 3.isGreaterThan(4)
+//Now this is infix notation
+val stillCorrect = 6 isGreaterThan 4
+```
+---
+
+## Nullability Problem
+```java
+String s = "A string";
+
+//later
+s = null;
+
+//later again
+s.equals("Some string");
+```
+---
+## Null Saftey
+```koltin
+var a:String = "This cannot be null"
+var b:String? = null
+a = "Another string" // compiler error
+b = "Hello Kotlin" //This is OK
+```
+---
+# Null Safety
+```koltin
+b?.equals("Hello")  // This is safe
+b!!.equals("Another") // I want to shoot myself in the leg.
+```
+---
+
+# Classes
+```kotlin
+class Person(val firstName:String,var lastName;String)
+
+class Person constructor(val firstName:String,var lastName:String)
+
+class Person(fName:String,lName:String){
+val firstName = fName
+var lastName = lName
+}
+
+```
+---
+# Properties
+```kotlin
+class Person(val firstName:String, var lastName:String){
+fun getFullName = "$firstName $lastName"
+
+}
+```
+---
+# Properties
+```kotlin
+class Person (private var firstName:String,private var lastName:String)
+{
+var fullName
+get() = "$firstName lastName"
+set(value) {
+val namesSplitted = value.split(" ")
+firstName = namesSplitted[0]
+lastName = namesSplit[1]
+}
+}
+```
+---
+## Lambdas
+
+```kotlin
+val sub(x:Int,y:Int) -> Int = {x,y -> x-y}
+val sub2(Int,Int) -> Int = {x,y-> x-y}
+val sub3:{x:Int,y:Int -> x -y}
+```
+---
+## Collections
+```kotlin
+val numbers = arrayOf(1,2,3,4)
+val results = numbers.map{ it + 2}
+                        .filter{value -> value.rem(2) == 0}
+                        
+                
+  ```
+  --- 
+  # Questions?
+  
+  ---
+  
+                        
+                        
