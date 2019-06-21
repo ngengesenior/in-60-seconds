@@ -26,8 +26,7 @@
 - Concise, Safe.
 
 ---?code=codes/Employee.java&title=Concise?
-@[1-10]()
-@[11-20]()
+@[1-20]()
 @[21-30]()
 @[31-50]()
 @[51-66]()
