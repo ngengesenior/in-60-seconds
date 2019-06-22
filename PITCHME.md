@@ -240,7 +240,7 @@ val results = numbers.map{ it + 2}
                         
                 
   ```
-  ---?image=assets/img/senior.pg
+  ---?image=https://github.com/ngengesenior/in-60-seconds/blob/master/assets/img/senior.jpg
   ## Ngenge Senior N.
   - Android Developer
   - Technical Writer at **The Start** and **ITNEXT.io**
