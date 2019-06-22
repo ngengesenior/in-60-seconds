@@ -24,7 +24,7 @@
 - Became first class citizen language for Android development at I/O 2017
 - Became Google's preferred language for Android at I/O 2019
 - Concise, Safe.
----
+
 ---?code=codes/Employee.java&title=Concise?
 @[0-20]()
 @[21-30]()
