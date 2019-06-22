@@ -32,6 +32,7 @@
 @[51-66]()
 
 ---?code=codes/EmployeeKt.kt&lang=kotlin&title=Concise!
+---
 - Concise
 - Safe
 - Solves Nulability problem
