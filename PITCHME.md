@@ -250,7 +250,7 @@ val results = numbers.map{ it + 2}
   - Twitter: @ngenge_senior
   - Medium: https://medium.com/@ngengesenior
   
-  ---
+ ---
   # Questions?
   
   ---
