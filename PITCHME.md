@@ -240,11 +240,14 @@ val results = numbers.map{ it + 2}
                         
                 
   ```
----?image=assets/img/senior.jpg
-  ## Ngenge Senior N.
-  - Android Developer
-  - Technical Writer at **The Start** and **ITNEXT.io**
-  - Passionate About Kotlin and Android Development
+---
+
+@title[About Me]
+## Ngenge Senior N.
+![Me](assets/img/senior.jpg)
+- Android Developer
+- Technical Writer at **The Start** and **ITNEXT.io**
+- Passionate About Kotlin and Android Development
   
   ### Social
   - Twitter: @ngenge_senior
@@ -253,7 +256,7 @@ val results = numbers.map{ it + 2}
  ---
   # Questions?
   
-  ---
+ ---
   
                         
                         
