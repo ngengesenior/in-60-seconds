@@ -244,14 +244,17 @@ val results = numbers.map{ it + 2}
 
 @title[About Me]
 ## Ngenge Senior N.
+@snap[east span-40]
 ![Me](assets/img/senior.jpg)
+@snapend
+@snap[west span-60]
 - Android Developer
 - Technical Writer at **The Start** and **ITNEXT.io**
 - Passionate About Kotlin and Android Development
-  
-  ### Social
-  - Twitter: @ngenge_senior
-  - Medium: https://medium.com/@ngengesenior
+@snapend
+### Social
+- Twitter: @ngenge_senior
+- Medium: https://medium.com/@ngengesenior
   
  ---
   # Questions?
