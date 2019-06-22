@@ -37,8 +37,8 @@
 - Solves Nulability problem
 - Modern with many great features
 - Easy to adopt
----?color=linear-gradient(180deg, white 75%, black 25%)
-@title[Who is Kotlin For]
+---
+### Who is Kotlin For
 
 - Android developers(JVM)
 - Backend developers(JVM)
