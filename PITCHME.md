@@ -71,10 +71,14 @@ email = "somefakeemail@gmail.com" // This is an error. Email is read-only
 
 ```koltin
 var birthYear:Int = 1992
+
 var event = "Google I/O Extended"
+
 // Let's modify some variables
 birthYear = 1980 // This is OK
+
 event = "I/O Limbe 2019" // This is OK
+
 birthYear = "2019" // Please don't do that here. It will fail as variable is an Int
 ```
 ---
